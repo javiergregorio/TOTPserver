@@ -137,7 +137,6 @@ public class TOTPserver {
     	return resultado; 
     }
     
-
      
     //NUEVO
     //public String sss="loquesea";

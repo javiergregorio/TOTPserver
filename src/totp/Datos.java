@@ -47,6 +47,5 @@ public class Datos {
         this.respuesta = respuesta;
 
     }
- 
          
 }
