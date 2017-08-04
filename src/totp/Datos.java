@@ -7,7 +7,7 @@ public class Datos {
 	
     private long id;
     private String totpass;
-    private String respuesta;
+    private String response;
     
  
     public String getTotpass() {
@@ -18,11 +18,11 @@ public class Datos {
     }
     
     public String getRespuesta() {
-    	return respuesta;
+    	return response;
     }
     
     public void setRespuesta(String respuesta) {
-    	this.respuesta = respuesta;
+    	this.response = respuesta;
     }
      
     public long getId() {
@@ -36,16 +36,13 @@ public class Datos {
         
         id = -1;
         totpass = "";
-        respuesta = "";
-         
+        response = "";
     }
     
-    public Datos (long id, String totpass, String respuesta) {
+    public Datos (long id, String totpass, String response) {
  
         this.id = id;
         this.totpass = totpass;
-        this.respuesta = respuesta;
-
-    }
-         
+        this.response = response;
+    }   
 }
